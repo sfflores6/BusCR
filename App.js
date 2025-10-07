@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Hola, BusCR está corriendo!</Text>
+    <Text>Hola desde la rama Frontend 🚀!</Text>
   </View>
   );
 }
