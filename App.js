@@ -1,6 +1,11 @@
-import React from 'react';
-import AppNavigator from './src/navigation/AppNavigator';
+import { View, Text } from "react-native";
 
 export default function App() {
-  return <AppNavigator />;
+  return (
+    <View className="flex-1 items-center justify-center bg-blue-500">
+      <Text className="text-white text-2xl font-bold">
+        ✅ NativeWind funcionando correctamente
+      </Text>
+    </View>
+  );
 }
